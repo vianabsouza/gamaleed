@@ -1,3 +1,21 @@
-div {
-    background-image: url('woman-riding-large.jpg');
+header img {
+    position: absolute;
+    width: 124px;
+    height: 104.16px;
+    left: 127px;
+    top: 103.32px;
+
+    background: url();
+}
+
+/* banner */
+
+#main-banner {
+    height: 70vh;
+    background-image: url('../imgs/woman-riding-large.jpg');
+    background-size: cover;
+}
+
+#banner-info h1 {
+    color: #FF9A23;
 }

@@ -15,53 +15,60 @@
     <link rel="stylesheet" href="css/landing_page.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Exemplo de formulário para o Show me the Leads do Gama</h1>
-
-        <section class="container-fluid px-0">
-            <div class="row align-items-center" id="header">
-                <!--<img class="img-fluid" src="imgs/woman-riding-large.jpg" alt="Woman riding a scooter along the coast.">-->
-            </div>
-        </section>
-
-        <section class="container-fluid px-0">
-            <div class="row align-items-center">
-                <div class="col-md-12">
-                    <div class="row justify-content-center">
-                        <h3 class="text-center">test</h3>
-                        <h2 class="text-center">museum of candy</h2>
-                        <p class="lead">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ab doloremque quasi praesentium laudantium ad itaque sunt veritatis officia pariatur 
-                            perferendis aliquid molestias incidunt veniam beatae tempora aperiam dolore. Necessitatibus est aspernatur odit quibusdam impedit iure temporibus dolorum voluptas 
-                            ipsa asperiores, provident minima tempore! Quos quo autem, ipsam illo, modi totam dolore tenetur repellendus inventore nulla perferendis at. Odit dolore non blanditiis!
-                        </p>
-                    </div>
+    <div class="container-fluid">
+        <header>
+            <img src="" alt="Holihost">
+        </header>
+        <main>
+            <!-- Banner -->
+            <div id="main-banner">
+                <div id="banner-info">
+                    <h1>O Guia do viajante pós-pandemia</h1>
+                    <p>
+                        Se você é um amante por viagens, mochilão, gosta de conhecer novas culturas, quer fazer um intercâmbio, 
+                        fazer aquela viagem para comemorar seu aniversário ou para rever alguém importante, então você precisa ter 
+                        este Guia para viajantes no pós-pandemia.
+                    </p>
                 </div>
             </div>
-        </section>
-
-        <section class="container-fluid px-0">
-            <div class="row align-items-center">
-                <div class="col-md-12 text-center">
-                    <div class="row justify-content-center">
-                        <div class="col-10 col-lg-8 mb-5 mb-md-0">
-                            <form method="POST" action="URL do seu time">
-                                <input type="text" name="name" pattern="^\D{2,}\s[\D\s]{2,}$" placeholder="Digite seu nome completo" title="Digite seu nome completo" required/>
-                                <input type="email" name="email" title="Digite um email válido" placeholder="Digite o email que você usa" required/>
-                                <h1>Já se hospedou em acomodações colaborativas?</h1>
-                                <form>
-                                <input type="radio" name="search" value="Yes"> Sim
-                                <input type="radio" name="search" value="No">Não
-                                </form>
-                                <input name="redirectTo" type="hidden" value="https://gama.academy" />
-                                <input name="debugMode" type="hidden" value="true" />
-                                <input type="submit" />
-                            </form>
-                        </div>
-                    </div>
+            <!-- body text -->
+            <section id="body-text">
+                <div class="body-info">
+                    <h5>De avião, carro, trem ou metrô,</h5>
+                    <h2>a distância voltará a ser algo que romperemos facilmente...</h2>
+                    <p>
+                        Mas para que isso aconteça de maneira segura, tanto para você quanto para as demais pessoas que que te cercam, 
+                        alguns cuidados precisam ser tomados no momento de escolher o seu destino e a sua acomodação.
+                    </p>
+                    <p>
+                        Nosso jeito de escolher um destino, uma casa de temporada, um apartamento de aluguel ou uma acomodação precisa passar, 
+                        agora, por várias observações que são extremamente importantes para a nossa saúde.
+                    </p>
+                    <p>
+                        No mundo já batemos a infeliz marca de mais de 10 milhões de pessoas infectadas pelo novo coronavírus, sendo 
+                        que dessas pessoas, mais de meio milhão foram vítimas fatais do vírus.
+                    </p>
+                    <p>
+                        Neste e-book, temos várias dicas que você pode aproveitar em todas as suas próximas viagens, nas suas próximas 
+                        escolhas de acomodações, quartos ou casa de aluguel de maneira segura, simples e ainda cheia de novas aventuras.
+                    </p>
+                    <p>
+                        Pegue agora mesmo o seu Guia e já comece e comece a planejar a sua próxima viagem!
+                    </p>
                 </div>
-            </div>
-        </section>
+            </section>
+            <!-- footer -->
+            <footer>
+                <form action="" method="">
+                    <input type="text" name="name" placeholder="Digite seu nome">
+                    <input type="email" name="email" placeholder="Digite seu email">
+                    <p>Já se hospedou em acomodações colaborativas?</p>
+                    <input type="radio" name="search" value="Yes"> Sim
+                    <input type="radio" name="search" value="No">Não
+                    <input type="submit" value="Receber meu e-book agora!">
+                </form>
+            </footer>
+        </main>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
