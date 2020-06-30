@@ -7,7 +7,7 @@ body, html {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("../img/woman-riding-motor-scooter.jpg");
+  background-image: url("../img/mulher-moto.png");
 
   /* Set a specific height */
   height: 100%;
@@ -80,4 +80,10 @@ footer input {
     border: none;
     text-transform: uppercase;
     font-weight: 900;
+    box-shadow: inset 0px 4px 10px #CF7D1D;
 }
+
+.submit-btn:hover {
+    box-shadow: 2px 4px 12px #CF7D1D;
+}
+
