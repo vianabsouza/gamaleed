@@ -26,8 +26,8 @@
     $('a[data-auto-download]').each(function(){
     var $this = $(this);
     setTimeout(function() {
-    window.location = $this.attr('href');
-    }, 6000);
+    window.open($this.attr('href'));
+    }, 3000);
     });
     });
     </script>
@@ -48,7 +48,7 @@
                 <p> Faça seu download do e-book “O Guia do Viajante pós-pandemia”!</p>
             <div class="wrapper">
                 <P class="textodownload">
-                    O download deve começar em breve. Caso contrário, clique em <a data-auto-download href="https://drive.google.com/file/d/1-1tSx14DDLbhRdYShxbZqJPXYPpqR8wp/view?usp=sharing" target="_blanck" download="HoliHost e-book" >download</a>
+                    O download deve começar em breve. Caso contrário, clique em <a data-auto-download href="https://drive.google.com/file/d/1-1tSx14DDLbhRdYShxbZqJPXYPpqR8wp/view?usp=sharing" target="_blank" download="HoliHost e-book" >download</a>
                 </P>
             </div>
             </section>
