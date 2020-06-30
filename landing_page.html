@@ -56,11 +56,12 @@
     <!-- footer -->
     <footer>
         <div class="m1 py-5">
-            <form action="" method="">
-                <input class="block-input" type="text" name="name" placeholder="Digite seu nome">
-                <input class="block-input" type="email" name="email" placeholder="Digite seu email">
-                <input type="checkbox" name="search" value="Yes"> <span>Já se hospedou em acomodações colaborativas?</span>
+            <form action="https://smtl.gama.academy/leads/bfee94f0-b7e1-11ea-8228-89cff86db9a0" method="POST">
+                <input class="block-input" type="text" name="name" placeholder="Digite seu nome completo" pattern="^\D{2,}\s[\D\s]{2,}$" required>
+                <input class="block-input" type="email" name="email" placeholder="Digite seu email" required>
                 <input class="block-input submit-btn" type="submit" value="Receber meu e-book gratuito agora!">
+                <input name="redirectTo" type="hidden" value="https://gama.academy" />
+                <input name="debugMode" type="hidden" value="true" />
             </form>
         </div>
     </footer>
