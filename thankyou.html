@@ -21,6 +21,19 @@
     <!--Title-->
     <title>Quase lá!</title>
 
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+    $(function() {
+    $('a[data-auto-download]').each(function(){
+    var $this = $(this);
+    setTimeout(function() {
+    window.location = $this.attr('href');
+    }, 6000);
+    });
+    });
+    </script>
+
+
 </head>
 
 <body>
@@ -33,9 +46,10 @@
             <section>
                 <h1 class="h1">Muito<br>Obrigado!</h1>
                 <p>Agradecemos o seu interesse no nosso e-book “O Guia do Viajante pós-pandemia”.</p>
-                <p>Em breve iniciará o download do e-book “O Guia do Viajante pós-pandemia”!</p>
+                <p> Faça seu download do e-book “O Guia do Viajante pós-pandemia”!</p>
+            <div class="wrapper">
+                <P class="textodownload">
+                    O download deve começar em breve. Caso contrário, clique em <a data-auto-download href="https://drive.google.com/file/d/1-1tSx14DDLbhRdYShxbZqJPXYPpqR8wp/view?usp=sharing" target="_blanck" download="HoliHost e-book" >download</a>
+                </P>
+            </div>
             </section>
-        </div>
-    </div>
-</body>
-</html>
