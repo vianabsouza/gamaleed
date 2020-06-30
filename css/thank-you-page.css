@@ -1,0 +1,85 @@
+/*Thank you page*/
+
+header img {
+  width: 125.5px;
+  height: 105.42px;
+  left: 126.5px;
+  top: 102.69px;
+  margin-left: 40px;
+}
+
+.img-mulher{
+  width: 100%;
+}
+
+.img-logo {
+  max-width: 30%;
+  height: auto;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 6vw;
+  font-size: 5vw;
+  color: #ff9a23;
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2vw;
+  font-size:2vw;
+  color: #4f4f4f;
+  margin-left: 40px;
+  margin-right: 70px;
+}
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  background-color: white;
+  width: 50vw;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8x;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
