@@ -83,3 +83,15 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* text donwlaod*/
+.textodownload {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size:15px;
+  color: #4f4f4f;
+  margin-left: 40px;
+  margin-right: 70px;
+  text-decoration: none;
+}
