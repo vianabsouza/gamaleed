@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 /* The hero image */
@@ -60,6 +60,7 @@ footer form {
     width: 450px;
     margin-left: auto;
     margin-right: auto;
+    min-width: 300px;
 }
 
 footer .block-input {
@@ -81,9 +82,11 @@ footer input {
     text-transform: uppercase;
     font-weight: 900;
     box-shadow: inset 0px 4px 10px #CF7D1D;
+    
 }
 
 .submit-btn:hover {
     box-shadow: 2px 4px 12px #CF7D1D;
 }
+
 
