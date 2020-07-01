@@ -81,6 +81,8 @@ footer input {
     text-transform: uppercase;
     font-weight: 900;
     margin-bottom: 0px;
+    font-size: 15px;
+    padding: 3px;
 }
 
 .submit-btn:hover {
@@ -92,3 +94,14 @@ footer input {
     border: none;
     outline: none;
   }
+
+  /* Media querie */
+
+@media screen and (max-width: 500px){
+    .submit-btn{
+        height: 80px;
+        font-size: 17px;
+        padding: 15px;
+        white-space: normal;
+    }
+}
