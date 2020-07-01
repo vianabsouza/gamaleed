@@ -80,6 +80,7 @@ footer input {
     border: none;
     text-transform: uppercase;
     font-weight: 900;
+    margin-bottom: 0px;
 }
 
 .submit-btn:hover {
@@ -91,5 +92,3 @@ footer input {
     border: none;
     outline: none;
   }
-
-
