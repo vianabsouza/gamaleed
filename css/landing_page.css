@@ -80,12 +80,16 @@ footer input {
     border: none;
     text-transform: uppercase;
     font-weight: 900;
-    box-shadow: inset 0px 4px 10px #CF7D1D;
-    
 }
 
 .submit-btn:hover {
     box-shadow: 2px 4px 12px #CF7D1D;
 }
+
+.submit-btn:active {
+    box-shadow: inset 0px 4px 10px #CF7D1D;
+    border: none;
+    outline: none;
+  }
 
 
