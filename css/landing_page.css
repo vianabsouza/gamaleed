@@ -15,9 +15,9 @@ body, html {
   position: relative;
 }
 
-@media (min-width: 300px ) {
+@media (min-width: 280px ) {
     .hero-image {
-        background-image: url("../img/mulher-moto-mobile-fhd.jpg");
+        background-image: url("../img/mulher-moto-mobile.jpg");
     }
 
     body {
