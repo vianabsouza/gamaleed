@@ -1,14 +1,10 @@
 body, html {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
 }
 
 /* The hero image */
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("../img/mulher-moto.jpg");
-
   /* Set a specific height */
   height: 100%;
 
@@ -17,6 +13,36 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+@media (min-width: 300px ) {
+    .hero-image {
+        background-image: url("../img/mulher-moto-mobile-fhd.jpg");
+    }
+
+    body {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 640px ) {
+    .hero-image {
+        background-image: url("../img/mulher-moto-media.jpg");
+    }
+
+    body {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1281px ) {
+    .hero-image {
+        background-image: url("../img/mulher-moto.jpg");
+    }
+
+    body {
+        font-size: 1.5rem;
+    }
 }
 
 /* Place text in the middle of the image */
