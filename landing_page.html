@@ -84,37 +84,6 @@
                 <input name="redirectTo" type="hidden" value="https://holihost.netlify.app/thankyou" />
             </form>
         </div>
-        <div id="sad-news" class="sad-news-container">
-            <div class="container-news">
-                <img class="img-logo" src="img/logo-holihost.png" alt="Holihost">
-                <h1 class="h1-pop">
-                    Não vá embora
-                </h1>
-                <div id="listra"></div>
-                <p class="subtext-news1">QUER FAZER AQUELA VIAGEM? ESTE GUIA PARA VIAJANTES NA PÓS-PANDEMIA É PARA VOCÊ!</p>
-                <p class="subtext-news2">EBOOK GRATUITO SOMENTE ATÉ SEXTA-FEIRA (02/07), <a class="loadform" href="https://holihost.netlify.app/landing_page#form"> GARANTA JÁ O SEU!            </p></a>
-                <a href="https://holihost.netlify.app/landing_page"><p id="closetext">Não tenho interesse</p></a>
-            </div>
-        </div> 
-        <script> 
-            function onMouseOut(event) {
-            // If the mouse is near the top of the window, show the popup
-            // Also, do NOT trigger when hovering or clicking on selects
-            if (
-                event.clientY < 50 &&
-                event.relatedTarget == null &&
-                event.target.nodeName.toLowerCase() !== 'select') {
-                // Remove this event listener
-                document.removeEventListener("mouseout", onMouseOut);
-
-                // Show the popup
-                document.getElementById("sad-news").style.display = "block";
-            }
-            }
-            // ação do evento
-            document.addEventListener("mouseout", onMouseOut); 
-        </script>
-    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
