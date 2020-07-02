@@ -97,6 +97,16 @@
             </div>
         </div> 
         <script> 
+             function closePopUpAndGoToForm(event) {
+                // Hide the popup
+                document.getElementById("sad-news").style.display = "none";
+                location.hash = "#form";
+            }
+            function closePopUp(event) {
+                // Hide the popup
+                document.getElementById("sad-news").style.display = "none";
+            }
+
             function onMouseOut(event) {
             // If the mouse is near the top of the window, show the popup
             // Also, do NOT trigger when hovering or clicking on selects
